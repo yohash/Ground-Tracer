@@ -71,6 +71,7 @@ public class inputController : MonoBehaviour {
 		// adding filtering operations
 
 		theLineGenerator.setLinePoints(linePoints.ToArray(),linePointNormals.ToArray());
+		theLineGenerator.generateMesh();
 	}
 
 	void initiateTracking() {
